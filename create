@@ -1,0 +1,18 @@
+此脚本默认使用Debian
+
+一键安装代码:
+bash <(curl -L -s https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh) | tee v2ray_ins.log
+
+如果安装不了BBR请先运行以下代码：
+yum -y install wget
+
+设置时区
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+bbr魔改
+wget --no-check-certificate https://github.com/tcp-nanqinlang/general/releases/download/3.4.2.1/tcp_nanqinlang-fool-1.3.0.sh
+bash tcp_nanqinlang-fool-1.3.0.sh
+
+bash tcp_nanqinlang-fool-1.3.0.sh
+
+
